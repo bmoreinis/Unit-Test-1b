@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BabySister Interface: Unit Test 1</title>
+    <script type="text/javascript" src="classes.js"></script>
+    <script type="text/javascript" src="questions1.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="checkline.js"></script>
+    <script type="text/javascript" src="webhelper.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="text-align:center;">
+    <h4><a href="dualless.html">Open <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf16u9Hn0I7EcuwgOKf1eg8cyvMjRl-SSLbN1mgNRlQTkUJCg/viewform">this form</a> in a sidebar.</h4>
+    <script>
+      /* document.body.style.overflow = 'hidden';*/
+      var buttons = document.getElementById("buttons");
+      var code = document.getElementById("code");
+      var instructions = document.getElementById("instructions");
+      var alertArea = document.getElementById("alert-area");
+      var playButton = document.getElementById("play");
+      var alertBox = document.createElement("dialog");
+    </script>
+    <div id="docbuttons" class="buttons">
+    <input type = "button" value="Show Kitchen" onclick="window.open('https://lucid.app/lucidchart/0974c802-89ec-431d-82c8-bc52d80cfbb2/view?page=Lva4dpT0COa7#')" />
+    <input type = "button" onclick = "loadDocs()" value = "Command Documentation">  
+    <input type = "button" onclick = "showClasses()" value = "Object Classes">  
+    <input type = "button" onclick = "addCommand()" value = "Add Documentation"> 
+    </div>
+    <div id="alertArea">
+    </div>
+    <div id="code">
+    </div>
+    <div id="editbuttons" class="buttons">
+    <h4 style="color:maroon;">For Part 1: 10 Questions</h4>
+     <input type = "button" onclick = "q1()" value = "1">
+     <input type = "button" onclick = "q2()" value = "2"> 
+     <input type = "button" onclick = "q3()" value = "3"> 
+     <input type = "button" onclick = "q4()" value = "4"> 
+     <input type = "button" onclick = "q5()" value = "5"> 
+     <input type = "button" onclick = "q6()" value = "6"> 
+     <input type = "button" onclick = "q7()" value = "7"> 
+     <input type = "button" onclick = "q8()" value = "8"> 
+     <input type = "button" onclick = "q9()" value = "9"> 
+     <input type = "button" onclick = "q10()" value = "10">  
+    <div id="instructions">
+    </div>
+    <h4 style="width:100%; text-align=center;color=red;">For Part 2: Code Editor</h4>
+    <input type = "button" onclick = "showCode(true)" value = "Show Code"> 
+    <input type = "button" onclick = "clearCode()" value = "Clear Code"> 
+    <input type = "button" onclick = "initialize()" value = "Title + Coder"> 
+    <input type = "button" onclick = "addLineByParts()" value = "Add Line">
+    <input type = "button" onclick = "addLineString()" value = "Insert Line"> 
+    <input type = "button" onclick = "delLine()" value = "Delete Line"> 
+    </div>
+    <script type="text/javascript" src="commands.js"></script> 
+    <script type="text/javascript" src="runtime.js"></script> 
+  </body>
+</html>
