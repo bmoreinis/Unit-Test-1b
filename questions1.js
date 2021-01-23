@@ -63,7 +63,7 @@ function q4(){
   clearCode();
   delCode();
   let myString="";
-  myString+="Question 4: Which line does <strong>NOT</strong> have a mistake?<br><br><br>"
+  myString+="<strong>Question 4:</strong> Which line does <strong>NOT</strong> have a mistake?<br><br><br>"
   myString+="10 open(fridge)<br><br>\n\n";
   myString+="20 get(jellyjar);<br><br>\n\n";
   myString+="30 hold(jelly);<br><br>\n\n";
@@ -76,7 +76,7 @@ function q5(){
   clearCode();
   delCode();
   let myString="";
-  myString+="Question 5: Which line is impossible to do in this order?<br><br><br>"
+  myString+="<strong>Question 5: Which line is impossible to do in this order?</strong><br><br><br>"
   myString+="110 get(peanutButterJar);<br><br>\n\n";
   myString+="120 hold(peanutButterJar);<br><br>\n\n";
   myString+="130 get(butterKnife);<br><br>\n\n";
@@ -89,7 +89,7 @@ function q6(){
   clearCode();
   delCode();
   let myString="";
-  myString+="Question 6: Use these lines to answer the question.<br><br>"
+  myString+="<strong>Question 6: Use these lines to answer the question.</strong><br><br>"
   myString+="110 goTo(pantry);<br><br>\n\n";
   myString+="120 open(pantry);<br><br>\n\n";
   code.innerHTML=myString;
@@ -100,7 +100,7 @@ function q6(){
 function q7(){
   clearCode();
   delCode();
-  let myString="In the Quiz form, which is a bad translation of the lines below?<br><br>";
+  let myString="<strong>In the Quiz form, which is a bad translation of the lines below?</strong><br><br>";
   myString+="<dt><strong>scoop(CObject)</strong></dt><dd><br><em>Rules: </em><ol><li>Argument CObject is a Container Object.</li><li>CObject contains spread (SObject).</li><li>Left.holding = CObject.</li><li>CObject.open = true.</li><li>Right.holding = knife.</li></ol></dd>";
   code.innerHTML=myString;
 }
@@ -109,11 +109,11 @@ function q7(){
 function q8(){
   clearCode();
   delCode();
-  let myString="Which of these is a bad translation? <br><br>";
-  myString+="1<br> CObject.open = false <br><em>means</em><br> Container object is closed.<br><br>\n\n";
-  myString+="2<br> Left.holding = knife <br><em>means</em><br> Knife is in left hand.<br><br>\n\n";
-  myString+="3<br> Argument = CLocation <br><em>means</em><br> Command is performed on a container location.<br><br>\n\n";
-  myString+="4<br> Right.free = true <br><em>means</em><br> Left hand is holding an object.<br>\n\n";
+  let myString="<strong>Which of these has a bad translation in the Quiz form? </strong><br><br>";
+  myString+="1<br> CObject.open = false <em>means</em> Container object is closed.<br><br>\n\n";
+  myString+="2<br> Left.holding = knife <em>means</em> Knife is in left hand.<br><br>\n\n";
+  myString+="3<br> Argument = CLocation <em>means</em> Command is performed on a container location.<br><br>\n\n";
+  myString+="4<br> Right.free = true <em>means</em> Left hand is holding an object.<br>\n\n";
   code.innerHTML=myString;
 }
 
@@ -121,7 +121,7 @@ function q8(){
 function q9(){
   clearCode();
   delCode();
-  let myString="Paste these into the form and fix all the errors.<br><br>";
+  let myString="<strong>Paste these into the form and fix all the errors.</strong><br><br>";
   myString+="10 // Get Plate */<br>";
   myString+="20 goto(cupBoard);<br>";
   myString+="30 open cupBoard;<br>";
@@ -135,7 +135,7 @@ function q9(){
 function q10(){
   clearCode();
   delCode();
-  let myString="Paste these into the form and put them in the right order.<br><br>";
+  let myString="<strong>Paste these into the form and put them in the right order.</strong><br><br>";
   myString+="/* Spread Jelly On Bread */<br>";
   myString+="get(jellyJar);<br>";
   myString+="scoop(jelly);<br>";
